@@ -49,7 +49,7 @@ public class FileStorageDriverTest {
 	}
 
 	@Test
-	@Ignore // fails @ travis with unclear reason
+//	@Ignore // fails @ travis with unclear reason
 	public final void testList()
 					throws Exception {
 
