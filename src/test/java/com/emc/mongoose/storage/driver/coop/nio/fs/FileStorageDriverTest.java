@@ -8,7 +8,6 @@ import com.github.akurilov.commons.math.Random;
 import org.apache.commons.io.FileUtils;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
-// import org.junit.Ignore;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -49,7 +48,6 @@ public class FileStorageDriverTest {
 	}
 
 	@Test
-//	@Ignore // fails @ travis with unclear reason
 	public final void testList()
 					throws Exception {
 
